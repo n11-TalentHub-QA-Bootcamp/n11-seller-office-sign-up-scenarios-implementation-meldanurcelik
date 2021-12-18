@@ -38,13 +38,15 @@ public class n11SellerOfficeSignupSteps {
                         "N11 TalentHub",
                         "test",
                         "test",
-                        "test"
+                        "test",
+                        "Samsun",
+                        "123",
+                        "melda_celik@hotmail.com"
                 ));
     }
 
     @Then("user signed in selleroffice successfully")
     public void user_signed_in_selleroffice_successfully() {
-        //div.simple:nth-child(8) div.sellerOffice:nth-child(3) div.ui-panel.ui-widget.ui-widget-content.ui-corner-all.formPanel.agreementAndIssuance div.ui-panel-content.ui-widget-content div.inputLine:nth-child(2) tbody:nth-child(1) tr:nth-child(2) td:nth-child(1) div.ui-message-error.ui-widget.ui-corner-all > span.ui-message-error-detail
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {

@@ -28,6 +28,11 @@ public class n11SellerOfficeSignupPageElement {
     public static Target BUSINESSNAME_FIELD = Target.the("business name textBox").located(By.id("businessNameInputText"));
     public static Target TRADEMARK_FIELD = Target.the("registered trademark input textBox").located(By.id("registeredTrademarkInputText"));
     public static Target COMPANYMERSIS_FIELD = Target.the("company mersis textBox").located(By.id("companyMersisText"));
+    public static Target COMPANYTRADEOFFICE_FIELD = Target.the("company trade office textBox").located(By.id("companyTradeOfficeText"));
+    public static Target COMPANYTRADEREGISTERNO_FIELD = Target.the("company trade register no textBox").located(By.id("companyTradeRegisterNoText"));
+    public static Target KEPADDRESS_FIELD = Target.the("registered email input textBox").located(By.id("registeredEmailInputText"));
+    public static Target CITY_DORPDOWN = Target.the("city tax office dropdown").located(By.id("cityTaxOfficeDropDown"));
+    public static Target CITY_DORPDOWN_CHOOSE = Target.the("city tax office dropdown choose").locatedBy("//body/div[@id='cityTaxOfficeDropDown_panel']/div[1]/ul[1]/li[68]");
 
 
 }
